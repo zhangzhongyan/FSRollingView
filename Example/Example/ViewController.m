@@ -1,19 +1,23 @@
-# FSRollingView
+//
+//  ViewController.m
+//  Example
+//
+//  Created by 张忠燕 on 2020/6/12.
+//  Copyright © 2020 张忠燕. All rights reserved.
+//
 
-iOS可定制空间，跑马灯、LED效果。 使用加入重用机制，标准数据源委托协议，更容易嵌入。
+#import "ViewController.h"
+#import <FSRollingView/FSRollingView.h>
+#import <Masonry/Masonry.h>
 
-#### 版本修改
+@interface ViewController ()<FSRollingViewDataSource, FSRollingViewDelegate>
 
-|  版本   | 修改内容  |
-|  ----  | ----  |
-| v1.0.0  | 支持竖直方向LED效果 |
-
-请查看workspace工中的**Example**示例项目。 下载后，您将需要运行pod install。
+@property (nonatomic, strong) FSRollingView *rollingView;
 
 
-# 示例代码
+@end
 
-```
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -92,9 +96,4 @@ iOS可定制空间，跑马灯、LED效果。 使用加入重用机制，标准�
 }
 
 
-```
-
-
-
-
-
+@end

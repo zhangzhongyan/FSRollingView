@@ -1,0 +1,23 @@
+PODS:
+  - FSRollingView (1.0.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FSRollingView (from `./`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  FSRollingView:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  FSRollingView: 092edb6dc0e9aa3cd9f1ba166971f33a38900e2d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: a6a894874094c8a7863fb4848f68e1b8dc8f6b69
+
+COCOAPODS: 1.9.1
